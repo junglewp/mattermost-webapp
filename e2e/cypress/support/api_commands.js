@@ -819,6 +819,8 @@ Cypress.Commands.add('apiUpdateConfigBasic', (newSettings = {}) => {
             headers: {'X-Requested-With': 'XMLHttpRequest'},
             method: 'PUT',
             body: settings,
+        }).then((updateResponse) => {
+            expect(updateResponse.status).to.equal(200);
         });
     });
 });
@@ -838,6 +840,8 @@ Cypress.Commands.add('apiUpdateConfig', (newSettings = {}) => {
             headers: {'X-Requested-With': 'XMLHttpRequest'},
             method: 'PUT',
             body: settings,
+        }).then((updateResponse) => {
+            expect(updateResponse.status).to.equal(200);
         });
     });
 

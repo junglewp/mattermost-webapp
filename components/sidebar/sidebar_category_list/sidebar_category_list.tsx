@@ -150,16 +150,6 @@ export default class SidebarCategoryList extends React.PureComponent<Props, Stat
         return allChannels.flat().map((channel) => channel.id);
     }
 
-    channelIdIsDisplayedForProps = (id: string) => {
-        const allChannels = this.getDisplayedChannelIds();
-        for (let i = 0; i < allChannels.length; i++) {
-            if (allChannels[i] === id) {
-                return true;
-            }
-        }
-        return false;
-    }
-
     getChannelRef = (channelId: string) => {
         return this.channelRefs.get(channelId);
     }
