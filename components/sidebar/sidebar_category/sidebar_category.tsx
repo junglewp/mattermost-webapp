@@ -117,15 +117,14 @@ export default class SidebarCategory extends React.PureComponent<Props> {
         let directMessagesModalButton;
         let hideArrow = false;
         if (category.type === CategoryTypes.DIRECT_MESSAGES) {
+            const helpLabel = localizeMessage('sidebar.createDirectMessage', 'Create new direct message');
+
             const tooltip = (
                 <Tooltip
                     id='new-group-tooltip'
                     className='hidden-xs'
                 >
-                    <FormattedMessage
-                        id='sidebar.createDirectMessage'
-                        defaultMessage='Create new direct message'
-                    />
+                    {helpLabel}
                 </Tooltip>
             );
 
@@ -133,6 +132,7 @@ export default class SidebarCategory extends React.PureComponent<Props> {
                 <button
                     className='SidebarChannelGroupHeader_addButton'
                     onClick={this.handleOpenDirectMessagesModal}
+                    aria-label={helpLabel}
                 >
                     <OverlayTrigger
                         delayShow={500}
@@ -155,12 +155,13 @@ export default class SidebarCategory extends React.PureComponent<Props> {
         }
 
         return (
-            <div className='SidebarChannelGroup'>
+            <div className='SidebarChannelGroup a11y__section'>
                 <div className='SidebarChannelGroupHeader'>
                     <button
                         ref={this.categoryTitleRef}
-                        className={classNames('SidebarChannelGroupHeader_groupButton a11y__section', {favorites: category.type === CategoryTypes.FAVORITES})}
+                        className={classNames('SidebarChannelGroupHeader_groupButton', {favorites: category.type === CategoryTypes.FAVORITES})}
                         onClick={this.handleCollapse}
+                        aria-label={displayName}
                     >
                         <i
                             className={classNames('icon icon-chevron-down', {

@@ -111,17 +111,6 @@ export default class SidebarCategoryList extends React.PureComponent<Props, Stat
             return;
         }
 
-        // if the active channel disappeared (which can happen when dm channels
-        // autoclose), go to user default channel in team
-        if (this.props.currentTeam === prevProps.currentTeam &&
-            this.props.currentChannel.id === prevProps.currentChannel.id &&
-            !this.getDisplayedChannelIds().find((channelId: string) => channelId === this.props.currentChannel.id)
-        ) {
-            this.closedDirectChannel = true;
-            redirectUserToDefaultTeam();
-            return;
-        }
-
         // reset the scrollbar upon switching teams
         if (this.props.currentTeam !== prevProps.currentTeam) {
             this.scrollbar.current!.scrollToTop();
@@ -145,9 +134,23 @@ export default class SidebarCategoryList extends React.PureComponent<Props, Stat
         this.updateUnreadIndicators();
     }
 
-    getDisplayedChannelIds = () => {
-        const allChannels = this.props.categories.map((category) => this.props.getChannelsForCategory(category));
+    getDisplayedChannelIdsForProps = (props: Props) => {
+        const allChannels = props.categories.map((category) => props.getChannelsForCategory(category));
         return allChannels.flat().map((channel) => channel.id);
+    }
+
+    getDisplayedChannelIds = () => {
+        return this.getDisplayedChannelIdsForProps(this.props);
+    }
+
+    channelIdIsDisplayedForProps = (id: string) => {
+        const allChannels = this.getDisplayedChannelIds();
+        for (let i = 0; i < allChannels.length; i++) {
+            if (allChannels[i] === id) {
+                return true;
+            }
+        }
+        return false;
     }
 
     getChannelRef = (channelId: string) => {
@@ -362,7 +365,7 @@ export default class SidebarCategoryList extends React.PureComponent<Props, Stat
         return (
             <div
                 className={classNames('SidebarNavContainer a11y__region', {disabled: this.props.isUnreadFilterEnabled})}
-                data-a11y-sort-order='6'
+                data-a11y-sort-order='7'
             >
                 <UnreadChannelIndicator
                     name='Top'
