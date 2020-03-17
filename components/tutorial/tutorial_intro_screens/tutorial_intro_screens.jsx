@@ -114,7 +114,7 @@ export default class TutorialIntroScreens extends React.Component {
                 <h1>
                     <FormattedMessage
                         id='tutorial_intro.screenOne.title2'
-                        defaultMessage='Mattermost'
+                        defaultMessage='JungleWP® Hello'
                     />
                 </h1>
                 <p>
