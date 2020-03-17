@@ -1,6 +1,6 @@
 {
   "about.buildnumber": "Build Number:",
-  "about.copyright": "Copyright {currentYear} JungleWP Limited. All rights reserved",
+  "about.copyright": "Copyright 2015 - {currentYear} Mattermost, Inc. All rights reserved",
   "about.database": "Database:",
   "about.date": "Build Date:",
   "about.dbversion": "Database Schema Version:",
