@@ -565,8 +565,8 @@ export const SidebarChannelGroups = {
 };
 
 export const AboutLinks = {
-    TERMS_OF_SERVICE: 'https://about.mattermost.com/default-terms/',
-    PRIVACY_POLICY: 'https://about.mattermost.com/default-privacy-policy/',
+    TERMS_OF_SERVICE: 'https://docs.junglewp.com/article/34-terms-and-conditions-of-supply',
+    PRIVACY_POLICY: 'https://docs.junglewp.com/article/35-data-privacy',
 };
 
 export const PermissionsScope = {
