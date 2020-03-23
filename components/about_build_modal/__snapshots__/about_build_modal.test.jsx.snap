@@ -89,7 +89,7 @@ exports[`components/AboutBuildModal should match snapshot for enterprise edition
         >
           <div>
             <FormattedMessage
-              defaultMessage="Mattermost Version:"
+              defaultMessage="Hello Version:"
               id="about.version"
               values={Object {}}
             />
@@ -143,11 +143,11 @@ exports[`components/AboutBuildModal should match snapshot for enterprise edition
           values={Object {}}
         />
         <a
-          href="http://about.mattermost.com/"
+          href="https://junglewp.com/online-collaboration/"
           rel="noopener noreferrer"
           target="_blank"
         >
-          about.mattermost.com
+          junglewp.com
         </a>
       </div>
       <div
@@ -340,7 +340,7 @@ exports[`components/AboutBuildModal should match snapshot for team edition 1`] =
         >
           <div>
             <FormattedMessage
-              defaultMessage="Mattermost Version:"
+              defaultMessage="Hello Version:"
               id="about.version"
               values={Object {}}
             />
@@ -579,7 +579,7 @@ exports[`components/AboutBuildModal should show ci if a ci build 1`] = `
         >
           <div>
             <FormattedMessage
-              defaultMessage="Mattermost Version:"
+              defaultMessage="Hello Version:"
               id="about.version"
               values={Object {}}
             />
@@ -830,7 +830,7 @@ exports[`components/AboutBuildModal should show dev if this is a dev build 1`] =
         >
           <div>
             <FormattedMessage
-              defaultMessage="Mattermost Version:"
+              defaultMessage="Hello Version:"
               id="about.version"
               values={Object {}}
             />

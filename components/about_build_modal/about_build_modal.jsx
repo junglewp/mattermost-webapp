@@ -114,9 +114,9 @@ export default class AboutBuildModal extends React.PureComponent {
                     <a
                         target='_blank'
                         rel='noopener noreferrer'
-                        href='http://about.mattermost.com/'
+                        href='https://junglewp.com/online-collaboration/'
                     >
-                        {'about.mattermost.com'}
+                        {'junglewp.com'}
                     </a>
                 </div>
             );
@@ -212,7 +212,7 @@ export default class AboutBuildModal extends React.PureComponent {
                     >
                         <FormattedMessage
                             id='about.title'
-                            values={{appTitle: config.SiteName || 'Mattermost'}}
+                            values={{appTitle: config.SiteName || 'JungleWP'}}
                             defaultMessage='About {appTitle}'
                         />
                     </Modal.Title>
@@ -220,16 +220,17 @@ export default class AboutBuildModal extends React.PureComponent {
                 <Modal.Body>
                     <div className='about-modal__content'>
                         <div className='about-modal__logo'>
-                            <MattermostLogo/>
+        {/* <MattermostLogo/> */}
+        <img src="https://junglewp.s3.amazonaws.com/Assets/android-chrome-192x192.png" />
                         </div>
                         <div>
-                            <h3 className='about-modal__title'>{'Mattermost'} {title}</h3>
+                            <h3 className='about-modal__title'>{'Hello'} {title}</h3>
                             <p className='about-modal__subtitle pb-2'>{subTitle}</p>
                             <div className='form-group less'>
                                 <div>
                                     <FormattedMessage
                                         id='about.version'
-                                        defaultMessage='Mattermost Version:'
+                                        defaultMessage='Hello Version:'
                                     />
                                     <span id='versionString'>{'\u00a0' + mmversion}</span>
                                 </div>
@@ -258,7 +259,7 @@ export default class AboutBuildModal extends React.PureComponent {
                             <div className='about-modal__copyright'>
                                 <FormattedMessage
                                     id='about.copyright'
-                                    defaultMessage='Copyright 2015 - {currentYear} Mattermost, Inc. All rights reserved'
+                                    defaultMessage='Copyright 2019 - {currentYear} JungleWP, ltd. All rights reserved'
                                     values={{
                                         currentYear: new Date().getFullYear(),
                                     }}
@@ -275,7 +276,7 @@ export default class AboutBuildModal extends React.PureComponent {
                         <p>
                             <FormattedMarkdownMessage
                                 id='about.notice'
-                                defaultMessage='Mattermost is made possible by the open source software used in our [server](!https://about.mattermost.com/platform-notice-txt/), [desktop](!https://about.mattermost.com/desktop-notice-txt/) and [mobile](!https://about.mattermost.com/mobile-notice-txt/) apps.'
+                                defaultMessage='JungleWP® Hello is made possible by the open source software used in our [server](!https://about.mattermost.com/platform-notice-txt/), [desktop](!https://about.mattermost.com/desktop-notice-txt/) and [mobile](!https://about.mattermost.com/mobile-notice-txt/) apps.'
                             />
                         </p>
                     </div>

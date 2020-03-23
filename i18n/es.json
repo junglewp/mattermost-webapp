@@ -1,6 +1,6 @@
 {
   "about.buildnumber": "Número de compilación:",
-  "about.copyright": "Derechos de autor 2015 - {currentYear} Mattermost. Todos los derechos reservados",
+  "about.copyright": "Copyright 2019 - {currentYear} JungleWP, ltd. All rights reserved",
   "about.database": "Base de Datos",
   "about.date": "Fecha de compilación:",
   "about.dbversion": "Versión de la base de datos:",
@@ -19,7 +19,7 @@
   "about.teamEditiont1": "Edición Team T1",
   "about.title": "Acerca de Mattermost",
   "about.tos": "Términos de Servicio",
-  "about.version": "Versión de Mattermost:",
+  "about.version": "JungleWP Hello Version:",
   "access_history.title": "Historial de Acceso",
   "activity_log_modal.android": "Android",
   "activity_log_modal.androidNativeApp": "Android App Nativa",

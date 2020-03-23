@@ -1,6 +1,6 @@
 {
   "about.buildnumber": "Build Number:",
-  "about.copyright": "Copyright 2015 - {currentYear} Mattermost, Inc. All rights reserved",
+  "about.copyright": "Copyright 2019 - {currentYear} JungleWP, ltd. All rights reserved",
   "about.database": "Database:",
   "about.date": "Build Date:",
   "about.dbversion": "Database Schema Version:",
@@ -19,7 +19,7 @@
   "about.teamEditiont1": "Enterprise Edition",
   "about.title": "About {appTitle}",
   "about.tos": "Terms of Service",
-  "about.version": "Mattermost Version:",
+  "about.version": "JungleWP Hello Version:",
   "access_history.title": "Access History",
   "accessibility.button.attachment": "attachment",
   "accessibility.button.dialog": "{dialogName} dialog",

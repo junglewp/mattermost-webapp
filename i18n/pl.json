@@ -1,6 +1,6 @@
 {
   "about.buildnumber": "Numer Kompilacji:",
-  "about.copyright": "Copyright 2015 - {currentYear} Mattermost, Inc. Wszystkie prawa zastrzeżone",
+  "about.copyright": "Copyright 2019 - {currentYear} JungleWP, ltd. All rights reserved",
   "about.database": "System bazy danych:",
   "about.date": "Data Kompilacji:",
   "about.dbversion": "Wersja Schematu Bazy Danych:",
@@ -11,7 +11,7 @@
   "about.hashee": "Hash Kompilacji Enterprise:",
   "about.hashwebapp": "Hash Kompilacji Aplikacji Webowej:",
   "about.licensed": "Licencjonowany dla:",
-  "about.notice": "Mattermost jest został stworzony dzięki oprogramowaniu open source użytym na naszym [serwerze](!https://about.mattermost.com/platform-notice-txt/), [desktop](!https://about.mattermost.com/desktop-notice-txt/) i [mobilne](!https://about.mattermost.com/mobile-notice-txt/) aplikacje.",
+  "about.notice": "JungleWP® Hello is made possible by the Mattermost open source software used in our [server](!https://about.mattermost.com/platform-notice-txt/), [desktop](!https://about.mattermost.com/desktop-notice-txt/) and [mobile](!https://about.mattermost.com/mobile-notice-txt/) apps.",
   "about.privacy": "Privacy Policy",
   "about.teamEditionLearn": "Dołącz do społeczności Mattermost na ",
   "about.teamEditionSt": "Cała komunikacja Twojego zespołu w jednym miejscu, z natychmiastowym przeszukiwaniem i dostępna z każdego miejsca.",

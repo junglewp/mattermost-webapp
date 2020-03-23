@@ -1,6 +1,6 @@
 {
   "about.buildnumber": "Номер збірки:",
-  "about.copyright": "Copyright 2015 - {currentYear} Mattermost, Inc. Всі права захищені",
+  "about.copyright": "Copyright 2019 - {currentYear} JungleWP, ltd. All rights reserved",
   "about.database": "База даних:",
   "about.date": "Дата створення:",
   "about.dbversion": "Версія схеми бази даних:",
@@ -11,7 +11,7 @@
   "about.hashee": "Хеш збірки EE:",
   "about.hashwebapp": "Хеш збірки Webapp:",
   "about.licensed": "Ліцензовано на:",
-  "about.notice": "Mattermost це стало можливим за допомогою програмного забезпечення з відкритим кодом, яке використовується на нашому сервері (! https://about.mattermost.com/platform-notice-txt/), [desktop] (!Https: //about.mattermost.com/ desktop-notice-txt /) та [mobile] (!https: //about.mattermost.com/mobile-notice-txt/) додатків.",
+  "about.notice": "JungleWP® Hello is made possible by the Mattermost open source software used in our [server](!https://about.mattermost.com/platform-notice-txt/), [desktop](!https://about.mattermost.com/desktop-notice-txt/) and [mobile](!https://about.mattermost.com/mobile-notice-txt/) apps.",
   "about.privacy": "Privacy Policy",
   "about.teamEditionLearn": "Приєднуйтесь до спільноти Mattermost на",
   "about.teamEditionSt": "Всі спілкування вашої команди в одному місці, з миттєвим пошуком та доступом звідусюди.",
